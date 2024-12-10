@@ -4,11 +4,10 @@ public class ExemoloForArray {
 
         String alunos[] = {"Thomas", "Gabby"};
 
-        for (int i = 0; i < alunos.length; i++){
+        for (int i = 0; i < alunos.length; i++)
+        {
 
             System.out.println("O aluno no indice i = " + i + " é " + alunos[i]);
-
-
         }
     }
 }
