@@ -13,7 +13,10 @@ public class ExemploForArray {
 
             System.out.println("O aluno no indice " + i + " é " + alunos[i]);
         }
+        for (String aluno : alunos){
 
+            System.out.println("O nome do aluno é: " + aluno);
+        }
 
     }
 }
